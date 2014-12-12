@@ -23,7 +23,9 @@
         "doctrine/doctrine-migrations-bundle": "dev-master",
         "doctrine/migrations": "dev-master",
         "beberlei/DoctrineExtensions": "*",
-        "willdurand/geocoder-bundle": "@stable"
+        "willdurand/geocoder-bundle": "@stable",
+        "widop/http-adapter-bundle": "~1.2",
+        "egeloen/google-map-bundle": "2.2.*@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
