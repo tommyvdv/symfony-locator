@@ -17,4 +17,9 @@ app/config/config_dev.ini
 app/cache/*
 app/log
 vendor/
+
 www
+commit
+app/config/config_dev.yml
+app/config/config_prod.yml
+app/config/config_test.yml

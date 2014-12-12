@@ -1,0 +1,23 @@
+{# src/Locator/LocationBundle/Resources/views/layout.html.twig #}
+{% extends '::base.html.twig' %}
+
+{% block body %}
+    <form action="{{ path('locator_location_homepage') }}" method="post" {{ form_enctype(form) }} class="locator">
+        {{ form_errors(form) }}
+
+        {{ form_rest(form) }}
+
+        <input type="submit" value="Submit" />
+    </form>
+
+    <section class="locations" id="locations">
+        <section class="all-locations">
+            <h3>Locations</h3>
+            {% include 'LocatorLocationBundle:Location:index.html.twig' with { 'locations': locations } %}
+        </section>
+    </section>
+{% endblock %}
+
+{% block sidebar %}
+    Sidebar content
+{% endblock %}

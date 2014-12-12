@@ -1,0 +1,17 @@
+locator_location_homepage:
+    path:     /
+    defaults: { _controller: LocatorLocationBundle:Page:index }
+    requirements:
+        _method:  GET|POST
+
+locator_location_about:
+    path:     /about
+    defaults: { _controller: LocatorLocationBundle:Page:about }
+#    requirements:
+#        _method:  GET
+
+locator_location_contact:
+    path:     /contact
+    defaults: { _controller: LocatorLocationBundle:Page:contact }
+#    requirements:
+#        _method:  GET

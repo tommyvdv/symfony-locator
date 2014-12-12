@@ -1,0 +1,5 @@
+services:
+    locator_location.twig.extension:
+        class: Locator\LocationBundle\Twig\Extensions\LocatorLocationExtension
+        tags:
+            - { name: twig.extension }

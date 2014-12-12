@@ -1,0 +1,3 @@
+# src/Locator/LocationBundle/Resources/config/config.yml
+parameters:
+    locator_location.emails.contact_email: ~
