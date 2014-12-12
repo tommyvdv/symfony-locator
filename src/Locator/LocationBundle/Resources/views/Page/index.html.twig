@@ -2,8 +2,14 @@
 {% extends '::base.html.twig' %}
 
 {% block body %}
+    {% for flashMessage in app.session.flashbag.get('locator-notice') %}
+        {{ flashMessage }}
+    {% endfor %}
+
     <form action="{{ path('locator_location_homepage') }}" method="post" {{ form_enctype(form) }} class="locator">
         {{ form_errors(form) }}
+
+        {{ form_row(form.address) }}
 
         {{ form_rest(form) }}
 
@@ -22,4 +28,9 @@
 
 {% block sidebar %}
     Sidebar content
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('/bundles/locatorlocation/js/index.js') }}"></script>
 {% endblock %}

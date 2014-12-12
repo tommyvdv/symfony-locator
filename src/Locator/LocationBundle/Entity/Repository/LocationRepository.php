@@ -18,7 +18,7 @@ class LocationRepository extends EntityRepository
     public function getAll($limit = null, $latLng = null)
     {
         //var_dump(array($lat,$lng));
-        list($lat, $lng) = array($latLng['lat'], $latLng['lng']);
+        list($lat, $lng, $distance) = array($latLng['lat'], $latLng['lng'], $latLng['distance']);
 
         $rsm = new ResultSetMappingBuilder($this->getEntityManager());
         $rsm->addRootEntityFromClassMetadata('LocatorLocationBundle:Location', 'l');
@@ -37,8 +37,12 @@ class LocationRepository extends EntityRepository
 
         $sql.= ' FROM locations AS l';
 
-        if($lat && $lng)
+        if($lat && $lng) {
+            if ($distance)
+                $sql.= ' HAVING distance <= :distance';
+
             $sql.= ' ORDER BY distance ASC';
+        }
 
         $qb = $this->getEntityManager()
                     ->createNativeQuery($sql, $rsm)
@@ -46,7 +50,8 @@ class LocationRepository extends EntityRepository
                         array(
                             'lat' => $lat,
                             'lng' => $lng,
-                            'pi' => pi()
+                            'pi' => pi(),
+                            'distance' => $distance
                         )
                     );
 
