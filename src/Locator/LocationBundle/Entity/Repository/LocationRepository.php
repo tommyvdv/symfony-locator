@@ -15,7 +15,7 @@ use Doctrine\ORM\Query\ResultSetMappingBuilder;
  */
 class LocationRepository extends EntityRepository
 {
-    public function getAll($limit = null, $latLng = null)
+    public function getAll($limit = null, $latLng = null, $scalar = false)
     {
         //var_dump(array($lat,$lng));
         list($lat, $lng, $distance) = array($latLng['lat'], $latLng['lng'], $latLng['distance']);
@@ -44,6 +44,9 @@ class LocationRepository extends EntityRepository
             $sql.= ' ORDER BY distance ASC';
         }
 
+        if (false === is_null($limit))
+            $sql.= ' LIMIT 0,:limit';
+
         $qb = $this->getEntityManager()
                     ->createNativeQuery($sql, $rsm)
                     ->setParameters(
@@ -51,11 +54,15 @@ class LocationRepository extends EntityRepository
                             'lat' => $lat,
                             'lng' => $lng,
                             'pi' => pi(),
-                            'distance' => $distance
+                            'distance' => $distance,
+                            'limit' => $limit
                         )
                     );
 
-        $result = $qb->getResult();
+        if($scalar)
+            $result = $qb->getScalarResult();
+        else
+            $result = $qb->getResult();
 
         if ($lat && $lng) {
             foreach ($result as $key => $row) {
@@ -63,9 +70,10 @@ class LocationRepository extends EntityRepository
                 $result[$key] = $row[0]->setDistance($row['distance']);
             }
         } else {
-            foreach ($result as $key => $row) {
-                $result[$key] = $row[0];
-            }
+            if(!$scalar)
+                foreach ($result as $key => $row) {
+                    $result[$key] = $row[0];
+                }
         }
 
         //var_dump($result); exit;

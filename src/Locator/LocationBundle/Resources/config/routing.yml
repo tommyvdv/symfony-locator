@@ -4,7 +4,7 @@ locator_location_homepage:
     requirements:
         _method:  GET|POST
 
-locator_location_homepage:
+locator_location_homepage_ajax:
     path:     /ajax
     defaults: { _controller: LocatorLocationBundle:Page:ajax }
     requirements:

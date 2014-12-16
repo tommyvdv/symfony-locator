@@ -6,7 +6,7 @@
         {{ flashMessage }}
     {% endfor %}
 
-    <form action="{{ path('locator_location_homepage') }}" method="post" {{ form_enctype(form) }} class="locator">
+    <form action="{{ path('locator_location_homepage_ajax') }}" method="post" {{ form_enctype(form) }} class="locator jsSearchLocations">
         {{ form_errors(form) }}
 
         {{ form_row(form.address) }}
@@ -16,7 +16,8 @@
         <input type="submit" value="Submit" />
     </form>
 
-    {{ google_map(map) }}
+    {{ google_map_container(map) }}
+    {{ google_map_js(map) }}
 
     <section class="locations" id="locations">
         <section class="all-locations">
@@ -32,5 +33,7 @@
 
 {% block javascripts %}
     {{ parent() }}
+    <script src="{{ asset('/bundles/locatorlocation/js/framework/jquery-1.11.1.js') }}"></script>
+    <script src="{{ asset('/bundles/locatorlocation/js/main.js') }}"></script>
     <script src="{{ asset('/bundles/locatorlocation/js/index.js') }}"></script>
 {% endblock %}

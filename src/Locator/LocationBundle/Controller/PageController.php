@@ -18,17 +18,66 @@ use Ivory\GoogleMap\Controls\MapTypeControl;
 use Ivory\GoogleMap\Controls\MapTypeControlStyle;
 use Ivory\GoogleMap\MapTypeId;
 
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+
 class PageController extends Controller
 {
-    public function ajaxAction()
+    public function ajaxAction(Request $request)
     {
+        $response = $this->get('ajax_response');
 
+        $address = new Address();
+
+        $form = $this->createForm(new AddressType(), $address);
+        $form->handleRequest($request);
+
+        if ($form->isValid()) {
+
+            $latlng = $address->getLatLng();
+
+            // get all
+            $em = $this->getDoctrine()
+                       ->getEntityManager();
+
+            $locations = $em->getRepository('LocatorLocationBundle:Location')
+                        ->getAll(null, $latlng);
+
+            $markers = array();
+            foreach ($locations as $location)
+            {
+                $marker = new Marker();
+                $marker->setPosition($location->getLatitude(), $location->getLongitude(), true);
+                $marker->setAnimation(Animation::DROP);
+                $marker->setOption('flat', true);
+
+                $markers[] = array(
+                    'label' => $marker->getJavascriptVariable(),
+                    'lat' => $marker->getPosition()->getLatitude(),
+                    'lng' => $marker->getPosition()->getLongitude()
+                );
+            }
+
+            $response->addMassData('markers', $markers);
+            //var_dump($markers); exit;
+
+            $response->setSuccess('message.searchLocationsSuccess', 'locations');
+
+        } else {
+
+            $response->setFieldErrors($this->get('form_errors')->getMessages($form));
+
+        }
+
+        // return
+        return $response->parseData();
     }
 
     public function indexAction()
     {
         // map
         $map = $this->get('ivory_google_map.map');
+        $map->setJavascriptVariable('locator_google_map');
 
         $zoomControl = new ZoomControl();
         $zoomControl->setZoomControlStyle(ZoomControlStyle::SMALL);
@@ -79,7 +128,7 @@ class PageController extends Controller
                    ->getEntityManager();
 
         $locations = $em->getRepository('LocatorLocationBundle:Location')
-                    ->getAll(null, $latlng);
+                    ->getAll(10, $latlng);
 
         if ($form->isValid())
         {

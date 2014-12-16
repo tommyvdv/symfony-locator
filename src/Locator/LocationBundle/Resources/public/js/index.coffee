@@ -1,2 +1,3 @@
-# Existence:
-alert "I knew it!" if elvis?
+$(document).ready ->
+    $('form.locator').click: (e) ->
+        console.debug e

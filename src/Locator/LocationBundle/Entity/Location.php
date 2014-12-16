@@ -61,7 +61,6 @@ class Location
 
     protected $distance;
 
-
     public function __construct()
     {
         $this->setCreated(new \DateTime());

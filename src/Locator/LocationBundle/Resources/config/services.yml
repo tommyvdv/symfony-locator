@@ -3,3 +3,8 @@ services:
         class: Locator\LocationBundle\Twig\Extensions\LocatorLocationExtension
         tags:
             - { name: twig.extension }
+    ajax_response:
+        class: Locator\LocationBundle\Utilities\AjaxResponse
+        arguments: [@lexik_translation.translator]
+    form_errors:
+        class: Locator\LocationBundle\Utilities\FormErrors
