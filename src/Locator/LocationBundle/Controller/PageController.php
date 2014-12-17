@@ -31,9 +31,9 @@ class PageController extends Controller
 
         $form = $this->createForm(new AddressType(), $address);
         $form->handleRequest($request);
-
-        if ($form->isValid()) {
-
+//var_dump((string) $form->getErrors(true)); exit;
+        if ($form->isValid())
+        {
             $latlng = $address->getLatLng();
 
             // get all
@@ -128,7 +128,7 @@ class PageController extends Controller
                    ->getEntityManager();
 
         $locations = $em->getRepository('LocatorLocationBundle:Location')
-                    ->getAll(10, $latlng);
+                    ->getAll(1, $latlng);
 
         if ($form->isValid())
         {

@@ -18,7 +18,12 @@ flash = {
         flash.addMessage(message, 'warning');
     },
     addMessage: function (message, type) {
-        $('.flashBag').append($('<div class="' + type + '"></div>').html(message));
+        $('.flashBag').append(
+            $('<div/>',{
+                'class': type,
+                'html': message
+            })
+        );
     }
 }
 
@@ -33,10 +38,19 @@ form = {
     addErrors: function(element, errors) {
         form.clearErrors(element);
 
+        errors = errors ? errors : [];
+
         for(var i = 0; i < errors.length; i++) {
-            $('#' + errors[i][0])
+            if(errors[i][0] === null)
+            {
+                flash.addError(errors[i][1]);
+            }
+            else
+            {
+                $('#' + errors[i][0])
                 .addClass('formError')
                 .after('<div class="errorContainer">' + errors[i][1] + '</div>');
+            }
         }
     },
     /**
@@ -85,8 +99,7 @@ form = {
             success: successFunction,
             error: function(response)
             {
-                console.log('something went wrong');
-                console.log(response);
+                flash.addError('something went wrong');
             }
         } );
     }

@@ -45,6 +45,10 @@ class FormErrors
             }
         }
 
+        foreach ($form->getErrors() as $error) {
+            $this->errors[] = array(null, $error->getMessage());
+        }
+
         return $this->errors;
     }
 }

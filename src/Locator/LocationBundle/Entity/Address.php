@@ -9,6 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Mapping\ClassMetadata;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\Constraints\LessThanOrEqual;
+use Symfony\Component\Validator\Constraints\True;
 
 class Address
 {
@@ -16,9 +17,13 @@ class Address
     protected $distance;
     protected $latlng;
     protected $geocoder;
+    protected $valid;
 
     public static function loadValidatorMetadata(ClassMetadata $metadata)
     {
+        $metadata->addGetterConstraint('valid', new True(array(
+            'message' => 'The address is invalid.',
+        )));
         $metadata->addPropertyConstraint('address', new NotBlank(array(
             'message' => 'Am i supposed to guess where you are?'
         )));
@@ -76,8 +81,12 @@ class Address
         try {
             // geocode
             $result = $this->geocoder->geocode($lookfor);
+
             // set result
-            $this->latlng = array('lat' => $result->getLatitude(), 'lng' => $result->getLongitude());
+            $this->latlng = array(
+                'lat' => $result->getLatitude(),
+                'lng' => $result->getLongitude()
+            );
         } catch(\Exception $e) {
             $this->latlng = null;
         }
@@ -85,10 +94,11 @@ class Address
 
     public function isValid()
     {
-        if ($this->latlng) {
-            return true;
+        if ($this->latlng !== null) {
+            $this->valid = true;
         }
+        $this->valid = false;
 
-        return false;
+        return $this->valid;
     }
 }
