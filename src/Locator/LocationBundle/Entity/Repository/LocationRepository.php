@@ -47,7 +47,6 @@ class LocationRepository extends EntityRepository
         if($lat && $lng && !$distance && is_null($limit))
             $limit = 10;
 
-
         if (false === is_null($limit))
             $sql.= ' LIMIT 0,:limit';
 

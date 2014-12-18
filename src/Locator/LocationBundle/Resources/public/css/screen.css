@@ -1,0 +1,6 @@
+.panel.panel-default.no-padding .panel-body {
+    padding: 0 !important;
+}
+#map_canvas {
+    min-height: 20em;
+}

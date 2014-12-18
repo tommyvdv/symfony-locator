@@ -20,7 +20,8 @@ flash = {
     addMessage: function (message, type) {
         $('.flashBag').append(
             $('<div/>',{
-                'class': type,
+                'role': 'alert',
+                'class': 'alert alert-'+type,
                 'html': message
             })
         );

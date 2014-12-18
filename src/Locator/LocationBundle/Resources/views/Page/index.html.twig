@@ -1,47 +1,79 @@
 {# src/Locator/LocationBundle/Resources/views/layout.html.twig #}
 {% extends '::base.html.twig' %}
 
+{% block stylesheets %}
+    {{ parent() }}
+    {% stylesheets
+        '@LocatorLocationBundle/Resources/public/css/screen.css'
+        combine=true
+    %}
+        <link href="{{ asset_url }}" rel="stylesheet" media="screen" />
+    {% endstylesheets %}
+{% endblock %}
+
 {% block body %}
-    <div class="flashBag">
-      {% for flashMessage in app.session.flashbag.get('success') %}
-        <div class="success">
-          {{ flashMessage }}
-        </div>
-      {% endfor %}
+    <div class="row">
+        <div class="col-sm-12">
 
-      {% for flashMessage in app.session.flashbag.get('warning') %}
-        <div class="warning">
-          {{ flashMessage }}
-        </div>
-      {% endfor %}
+            <div class="flashBag">
+              {% for flashMessage in app.session.flashbag.get('success') %}
+                <div class="alert alert-success" role="alert">
+                  {{ flashMessage }}
+                </div>
+              {% endfor %}
 
-      {% for flashMessage in app.session.flashbag.get('error') %}
-        <div class="error">
-          {{ flashMessage }}
-        </div>
-      {% endfor %}
+              {% for flashMessage in app.session.flashbag.get('warning') %}
+                <div class="alert alert-warning" role="alert">
+                  {{ flashMessage }}
+                </div>
+              {% endfor %}
+
+              {% for flashMessage in app.session.flashbag.get('error') %}
+                <div class="alert alert-error" role="alert">
+                  {{ flashMessage }}
+                </div>
+              {% endfor %}
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Form</h3>
+                </div>
+                <div class="panel-body">
+                    {% form_theme form 'bootstrap_3_layout.html.twig' %}
+                    <form action="{{ path('locator_location_homepage_ajax') }}" method="post" {{ form_enctype(form) }} class="locator jsSearchLocations">
+
+                        {{ form_errors(form) }}
+
+                        {{ form_row(form.address) }}
+
+                        {{ form_rest(form) }}
+                    </form>
+                </div>
+            </div>
+
+            <div class="panel panel-default no-padding">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Visual</h3>
+                </div>
+                <div class="panel-body">
+                    {{ google_map_container(map) }}
+                </div>
+            </div>
+
+            {{ google_map_js(map) }}
+
+            <div class="panel panel-default no-padding locations" id="locations">
+                <div class="panel-heading">
+                    <h3 class="panel-title">List</h3>
+                </div>
+                <div class="panel-body">
+                    {% include 'LocatorLocationBundle:Location:index.html.twig' with { 'locations': locations } %}
+                </div>
+            </div>
+
+        </div><!-- /.col-sm-12 -->
     </div>
-
-    <form action="{{ path('locator_location_homepage_ajax') }}" method="post" {{ form_enctype(form) }} class="locator jsSearchLocations">
-        {{ form_errors(form) }}
-
-        {{ form_row(form.address) }}
-
-        {{ form_rest(form) }}
-
-        <input type="submit" value="Submit" />
-    </form>
-
-    {{ google_map_container(map) }}
-
-    {{ google_map_js(map) }}
-
-    <section class="locations" id="locations">
-        <section class="all-locations">
-            <h3>Locations</h3>
-            {% include 'LocatorLocationBundle:Location:index.html.twig' with { 'locations': locations } %}
-        </section>
-    </section>
 {% endblock %}
 
 {% block sidebar %}
@@ -50,7 +82,9 @@
 
 {% block javascripts %}
     {{ parent() }}
-    <script src="{{ asset('/bundles/locatorlocation/js/framework/jquery-1.11.1.js') }}"></script>
-    <script src="{{ asset('/bundles/locatorlocation/js/main.js') }}"></script>
-    <script src="{{ asset('/bundles/locatorlocation/js/index.js') }}"></script>
+    {% javascripts
+        '@LocatorLocationBundle/Resources/public/js/main.js'
+        '@LocatorLocationBundle/Resources/public/js/index.js' %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
 {% endblock %}

@@ -2,6 +2,7 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
+    - { resource: assetic.yml }
 
 framework:
     #esi:             ~
@@ -34,7 +35,7 @@ twig:
 assetic:
     debug:          "%kernel.debug%"
     use_controller: false
-    bundles:        [ ]
+    bundles:        []
     #java: /usr/bin/java
     filters:
         cssrewrite: ~

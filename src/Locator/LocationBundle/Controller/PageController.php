@@ -79,6 +79,12 @@ class PageController extends Controller
         // map
         $map = $this->get('ivory_google_map.map');
         $map->setJavascriptVariable('locator_google_map');
+        $map->setStylesheetOptions(array(
+            'width'  => '100%',
+            'height' => '100%',
+        ));
+
+        $map->setLanguage('en');
 
         $zoomControl = new ZoomControl();
         $zoomControl->setZoomControlStyle(ZoomControlStyle::SMALL);

@@ -1,4 +1,7 @@
 /web/bundles/
+/web/assetic/
+/web/css/
+/web/js/
 /app/bootstrap.php.cache
 /app/cache/*
 /app/config/parameters.yml
@@ -23,3 +26,9 @@ commit
 app/config/config_dev.yml
 app/config/config_prod.yml
 app/config/config_test.yml
+
+
+app/SymfonyRequirements.php
+composer.lock
+
+app/SymfonyRequirements.php

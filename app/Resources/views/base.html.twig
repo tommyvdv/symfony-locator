@@ -1,17 +1,19 @@
 <!-- app/Resources/views/base.html.twig -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% block title %}locator{% endblock %} - locator</title>
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+
         {% block stylesheets %}
-            <link href='http://fonts.googleapis.com/css?family=Irish+Grover' rel='stylesheet' type='text/css'>
-            <link href='http://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
             {% stylesheets
-                'css/*'
+                '@bootstrap_less'
+                combine=true
             %}
                 <link href="{{ asset_url }}" rel="stylesheet" media="screen" />
             {% endstylesheets %}
@@ -20,43 +22,39 @@
     </head>
     <body>
 
-        <section id="wrapper">
-            <header id="header">
-                <div class="top">
-                    {% block navigation %}
-                        <nav>
-                            <ul class="navigation">
-                                <li><a href="{{ path('locator_location_homepage') }}">Home</a></li>
-                                <li><a href="{{ path('locator_location_about') }}">About</a></li>
-                                <li><a href="{{ path('locator_location_contact') }}">Contact</a></li>
-                            </ul>
-                        </nav>
-                    {% endblock %}
-                </div>
-
-                <hgroup>
-                    <hgroup>
-                        <h2>{% block locator_title %}<a href="{{ path('locator_location_homepage') }}">locator</a>{% endblock %}</h2>
-                        <h3>{% block locator_tagline %}<a href="{{ path('locator_location_homepage') }}">locations galore</a>{% endblock %}</h3>
-                    </hgroup>
-                </hgroup>
-            </header>
+        <div class="container">
+            <div class="header">
+                {% block navigation %}
+                    <nav>
+                        <ul class="nav nav-pills pull-right">
+                            <li role="presentation" class="active"><a href="{{ path('locator_location_homepage') }}">Home</a></li>
+                            <li role="presentation"><a href="{{ path('locator_location_about') }}">About</a></li>
+                            <li role="presentation"><a href="{{ path('locator_location_contact') }}">Contact</a></li>
+                        </ul>
+                    </nav>
+                {% endblock %}
+                <h3 class="text-muted">{% block locator_title %}<a href="{{ path('locator_location_homepage') }}">locator</a>{% endblock %}</h3>
+            </div>
 
             <section class="main-col">
                 {% block body %}{% endblock %}
             </section>
 
-            <aside class="sidebar">
-                {% block sidebar %}{% endblock %}
-            </aside>
-
-            <div id="footer">
+            <div id="footer" class="footer">
                 {% block footer %}
                     footer
                 {% endblock %}
             </div>
-        </section>
+        </div> <!-- /container -->
 
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}
+            {% javascripts
+                '@jquery_js'
+                '@bootstrap_js'
+                filter='?yui_js'
+                combine=true %}
+                <script src="{{ asset_url }}"></script>
+            {% endjavascripts %}
+        {% endblock %}
     </body>
 </html>

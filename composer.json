@@ -26,7 +26,14 @@
         "willdurand/geocoder-bundle": "@stable",
         "widop/http-adapter-bundle": "~1.2",
         "egeloen/google-map-bundle": "2.2.*@dev",
-        "lexik/translation-bundle": "2.*@dev"
+        "lexik/translation-bundle": "2.*@dev",
+        "twitter/bootstrap": "v3.0.0",
+        "packagist/yuicompressor-bin": "dev-master",
+        "ptachoire/cssembed": "dev-master",
+        "leafo/lessphp": "v0.5.0",
+        "oyejorge/less.php": "~1.5",
+        "twitter/bootstrap": "v3.3.0",
+        "components/jquery": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

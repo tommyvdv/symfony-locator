@@ -12,6 +12,7 @@ class AddressType extends AbstractType
     {
         $builder->add('address');
         $builder->add('distance');
+        $builder->add('search', 'submit');
     }
 
     public function getName()

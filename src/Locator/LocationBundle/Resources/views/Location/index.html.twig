@@ -1,5 +1,5 @@
 {# src/Locator/LocationBundle/Resources/views/Location/index.html.twig #}
-
+{#
 {% for location in locations %}
     <article class="location {{ cycle(['odd', 'even'], loop.index0) }}" id="location-{{ location.id }}">
         <header>
@@ -10,3 +10,28 @@
 {% else %}
     <p>There are no locations yet.</p>
 {% endfor %}
+#}
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Address</th>
+            <th>Added</th>
+            <th>Distance</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for location in locations %}
+            <tr class="location" id="location-{{ location.id }}">
+                <td>{{ location.id }}</td>
+                <td>{{ location.address }}</td>
+                <td>{{ location.created|created_ago }}</td>
+                <td>{{ location.distance|distance_notation }}</td>
+            </tr>
+        {% else %}
+            <tr>
+                <td><p>There are no locations yet.</p></td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
