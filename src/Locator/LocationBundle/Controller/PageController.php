@@ -52,6 +52,7 @@ class PageController extends Controller
                 $marker->setOption('flat', true);
 
                 $markers[] = array(
+                    'id' => $location->getId(),
                     'label' => $marker->getJavascriptVariable(),
                     'lat' => $marker->getPosition()->getLatitude(),
                     'lng' => $marker->getPosition()->getLongitude()
@@ -128,7 +129,7 @@ class PageController extends Controller
                    ->getEntityManager();
 
         $locations = $em->getRepository('LocatorLocationBundle:Location')
-                    ->getAll(1, $latlng);
+                    ->getAll(null, $latlng);
 
         if ($form->isValid())
         {

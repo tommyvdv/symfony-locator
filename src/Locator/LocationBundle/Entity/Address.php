@@ -11,6 +11,9 @@ use Symfony\Component\Validator\Constraints\NotBlank;
 use Symfony\Component\Validator\Constraints\LessThanOrEqual;
 use Symfony\Component\Validator\Constraints\True;
 
+// custom validation
+use Locator\LocationBundle\Validator\Constraints\IsValidAddress;
+
 class Address
 {
     protected $address;
@@ -21,9 +24,12 @@ class Address
 
     public static function loadValidatorMetadata(ClassMetadata $metadata)
     {
+        /*
         $metadata->addGetterConstraint('valid', new True(array(
             'message' => 'The address is invalid.',
         )));
+        */
+        $metadata->addConstraint(new IsValidAddress());
         $metadata->addPropertyConstraint('address', new NotBlank(array(
             'message' => 'Am i supposed to guess where you are?'
         )));
@@ -62,6 +68,7 @@ class Address
 
     public function getLatLng()
     {
+        if(!$this->latlng) return array();
         return array_merge($this->latlng, array('distance' => $this->getDistance()));
     }
 

@@ -13,7 +13,7 @@ searchLocations = {
                 form.addErrors(searchForm, response.fieldErrors);
 
                 if (response.error) {
-                    flash.addSuccess(response.error);
+                    flash.addError(response.error);
                 }
                 if (response.success) {
                     flash.addSuccess(response.success);
@@ -31,7 +31,11 @@ resultLocations = {
         resultLocations.map = locator_google_map_container;
     },
     addMarkers: function(locations, reset) {
-        if (reset) $.each(resultLocations.map.markers, resultLocations.decouple);
+        if (reset)
+        {
+            $('.all-locations .location').hide();
+            $.each(resultLocations.map.markers, resultLocations.decouple);
+        }
 
         resultLocations.bounds = new google.maps.LatLngBounds();
         $.each(locations, resultLocations.addMarker);
@@ -40,6 +44,8 @@ resultLocations = {
         el.setMap(null);
     },
     addMarker: function(i, el) {
+        $('.all-locations .location#location-'+el.id).show();
+
         var latlng = new google.maps.LatLng(el.lat, el.lng);
         resultLocations.bounds.extend(latlng);
         var marker = new google.maps.Marker({

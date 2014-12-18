@@ -60,6 +60,7 @@ form = {
      */
     clearErrors: function(element)
     {
+        $('.flashBag').find('.error,.success,.message').remove();
         element.find('*').removeClass('formError');
         element.find('.errorContainer').remove();
     },
