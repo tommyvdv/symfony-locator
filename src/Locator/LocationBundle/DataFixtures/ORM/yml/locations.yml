@@ -1,0 +1,1961 @@
+
+
+-
+    id: 2
+    street: 'Stationsstraat 110'
+    city: 'AALTER'
+    latitude: 51.089435
+    longitude: 3.447485
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 3
+    street: 'Sint-Jacobsmarkt 102'
+    city: 'ANTWERPEN'
+    latitude: 51.219944
+    longitude: 4.414836
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 4
+    street: 'Nieuwstraat 27'
+    city: 'ASSE'
+    latitude: 50.911001
+    longitude: 4.194979
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 5
+    street: 'Oude Zandstraat 79'
+    city: 'BEVEREN-WAAS'
+    latitude: 51.210907
+    longitude: 4.251498
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 6
+    street: 'Gistelsesteenweg 15A'
+    city: 'BRUGGE'
+    latitude: 51.213810
+    longitude: 2.927510
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 7
+    street: 'Tolpoortstraat 88'
+    city: 'DEINZE'
+    latitude: 50.979823
+    longitude: 3.530195
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 8
+    street: 'Noordlaan 1'
+    city: 'DENDERMONDE'
+    latitude: 51.033113
+    longitude: 4.103522
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 9
+    street: 'Molenstraat 20'
+    city: 'EEKLO'
+    latitude: 51.185737
+    longitude: 3.563553
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 10
+    street: 'stationsstraat 57'
+    city: 'GENK'
+    latitude: 50.965845
+    longitude: 5.501657
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 11
+    street: 'FRANCOIS LAURENTPLEIN 7'
+    city: 'GENT'
+    latitude: 51.050822
+    longitude: 3.727851
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 12
+    street: 'Koningin Astridlaan 21'
+    city: 'HASSELT'
+    latitude: 50.931277
+    longitude: 5.331956
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 13
+    street: 'ZANDSTRAAT 99'
+    city: 'HERENTALS'
+    latitude: 51.177234
+    longitude: 4.830415
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 14
+    street: 'Ch. de Napoleon 3'
+    city: 'HUY'
+    latitude: 50.516730
+    longitude: 5.235226
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 15
+    street: 'Rijselsestraat 18'
+    city: 'IEPER'
+    latitude: 50.842071
+    longitude: 2.889175
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 16
+    street: 'STATIONSSTRAAT 25'
+    city: 'KAPELLEN'
+    latitude: 51.314449
+    longitude: 4.430868
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 17
+    street: 'Graanmarkt 20'
+    city: 'KORTRIJK'
+    latitude: 50.826988
+    longitude: 3.265281
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 18
+    street: 'DIESTSESTRAAT 138 a/b'
+    city: 'LEUVEN'
+    latitude: 50.881295
+    longitude: 4.709200
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 19
+    street: 'Boulevard de la Sauvenière 32'
+    city: 'LIEGE'
+    latitude: 50.644240
+    longitude: 5.568841
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 20
+    street: 'STATIONSSTRAAT 40'
+    city: 'LOKEREN'
+    latitude: 51.106869
+    longitude: 3.987082
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 21
+    street: 'Kloosterstraat 40'
+    city: 'LOMMEL'
+    latitude: 51.230153
+    longitude: 5.315717
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 22
+    street: 'IJZERENLEEN 61'
+    city: 'MECHELEN'
+    latitude: 51.026041
+    longitude: 4.478170
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 23
+    street: 'Statiestraat 64'
+    city: 'MOL'
+    latitude: 51.190352
+    longitude: 5.117566
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 24
+    street: 'GRAANMARKT 47 bus2'
+    city: 'NINOVE'
+    latitude: 50.835403
+    longitude: 4.025254
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 25
+    street: 'Rue Du Cura 5'
+    city: 'NIVELLES'
+    latitude: 50.599892
+    longitude: 4.327640
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 26
+    street: 'ALFONS PIETERSLAAN 31'
+    city: 'OOSTENDE'
+    latitude: 51.226127
+    longitude: 2.914214
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 27
+    street: 'Westlaan 348'
+    city: 'ROESELARE'
+    latitude: 50.948747
+    longitude: 3.112198
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 28
+    street: 'BEVERSESTEENWEG 576'
+    city: 'ROESELARE'
+    latitude: 50.974578
+    longitude: 3.161673
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 29
+    street: 'F Rooseveltplein 38'
+    city: 'RONSE'
+    latitude: 50.746352
+    longitude: 3.599596
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 30
+    street: 'Parklaan 11 bus 12'
+    city: 'SINT-NIKLAAS'
+    latitude: 51.162012
+    longitude: 4.144396
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 31
+    street: 'IEPERSTRAAT 69'
+    city: 'TIELT'
+    latitude: 50.998178
+    longitude: 3.322276
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 32
+    street: 'DE MERODELEI 84'
+    city: 'TURNHOUT'
+    latitude: 51.321824
+    longitude: 4.938776
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 33
+    street: 'Stationslei 15'
+    city: 'VILVOORDE'
+    latitude: 50.925556
+    longitude: 4.429025
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 34
+    street: 'KEUKELDAM 10'
+    city: 'WAREGEM'
+    latitude: 50.886567
+    longitude: 3.433702
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 35
+    street: 'Nieuwstraat 37'
+    city: 'WETTEREN'
+    latitude: 51.002705
+    longitude: 3.880603
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 36
+    street: 'Bijenstraat 6B'
+    city: 'SINT-DENIJS-WESTREM'
+    latitude: 51.021349
+    longitude: 3.681807
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 37
+    street: 'Torhoutsesteenweg 248'
+    city: 'BRUGGE'
+    latitude: 51.217158
+    longitude: 2.907176
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 38
+    street: 'FRERE ORBANLAAN 146'
+    city: 'GENT'
+    latitude: 51.044498
+    longitude: 3.733836
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 39
+    street: 'Diestsesteenweg 54'
+    city: 'LEUVEN'
+    latitude: 50.883552
+    longitude: 4.718237
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 40
+    street: 'Smedenstraat 63'
+    city: 'BRUGGE'
+    latitude: 51.204932
+    longitude: 3.213688
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 41
+    street: 'Burgstraat 107'
+    city: 'GENT'
+    latitude: 51.056277
+    longitude: 3.715831
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 42
+    street: 'LEOPOLDPLEIN 8'
+    city: 'HASSELT'
+    latitude: 50.927167
+    longitude: 5.336085
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 43
+    street: 'Mlk. Haiglaan 3'
+    city: 'IEPER'
+    latitude: 50.851419
+    longitude: 2.876247
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 44
+    street: 'Veemarkt 53'
+    city: 'KORTRIJK'
+    latitude: 50.826763
+    longitude: 3.274643
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 45
+    street: 'BEVERESTRAAT 41'
+    city: 'OUDENAARDE'
+    latitude: 50.849790
+    longitude: 3.597981
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 46
+    street: 'STATIONSDREEF 6B'
+    city: 'ROESELARE'
+    latitude: 50.949250
+    longitude: 3.129535
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 47
+    street: 'Parkstraat 19A'
+    city: 'SINT-NIKLAAS'
+    latitude: 51.165278
+    longitude: 4.139002
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 48
+    street: 'CAPUCIENENLAAN 35'
+    city: 'AALST'
+    latitude: 50.937130
+    longitude: 4.027329
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 49
+    street: 'Frankrijklei 45'
+    city: 'ANTWERPEN'
+    latitude: 51.216522
+    longitude: 4.414793
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 50
+    street: 'Hoefijzerlaan 4'
+    city: 'BRUGGE'
+    latitude: 51.206138
+    longitude: 3.216977
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 51
+    street: 'BABA NOVAC 26 A'
+    city: 'CLUJ-NAPOCA'
+    latitude: 50.940435
+    longitude: 3.123250
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 52
+    street: 'Nieuwstraat 103'
+    city: 'GEEL'
+    latitude: 51.163360
+    longitude: 4.995720
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 53
+    street: 'Graanmarkt 20'
+    city: 'KORTRIJK'
+    latitude: 50.826988
+    longitude: 3.265281
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 54
+    street: 'Onze Lieve Vrouwstraat 105/107'
+    city: 'MECHELEN'
+    latitude: 51.092445
+    longitude: 4.510355
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 55
+    street: 'BEVERSESTEENWEG 24'
+    city: 'ROESELARE'
+    latitude: 50.950147
+    longitude: 3.131083
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 56
+    street: 'Antwerpsesteenweg 534'
+    city: 'SINT-AMANDSBERG'
+    latitude: 51.064946
+    longitude: 3.752922
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 57
+    street: 'PLEZANTSTRAAT 66'
+    city: 'SINT-NIKLAAS'
+    latitude: 51.167098
+    longitude: 4.133429
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 58
+    street: 'Rue de Bruxelles 11'
+    city: 'WAVRE'
+    latitude: 50.717739
+    longitude: 4.611160
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 59
+    street: 'GENTSESTRAAT 153'
+    city: 'AALST'
+    latitude: 50.937439
+    longitude: 4.027801
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 60
+    street: 'Lostraat 15'
+    city: 'AALTER'
+    latitude: 51.083429
+    longitude: 3.449521
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 61
+    street: 'Grote Markt 16'
+    city: 'AARSCHOT'
+    latitude: 50.983822
+    longitude: 4.836434
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 62
+    street: 'Quellinstraat 14'
+    city: 'ANTWERPEN'
+    latitude: 51.217209
+    longitude: 4.416513
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 63
+    street: 'BELPAIRESTRAAT 5'
+    city: 'BERCHEM'
+    latitude: 51.197998
+    longitude: 4.417017
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 64
+    street: 'ALBERT PANISSTRAAT 4A'
+    city: 'BEVEREN-WAAS'
+    latitude: 51.209533
+    longitude: 4.249064
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 65
+    street: 'Frans de Schutterlaan 40'
+    city: 'BOOM'
+    latitude: 51.089795
+    longitude: 4.364967
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 66
+    street: 'Boomstraat 67'
+    city: 'BORNEM'
+    latitude: 51.096835
+    longitude: 4.233179
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 67
+    street: 'STATIONSPLEIN 8 bus 001'
+    city: 'BRUGGE'
+    latitude: 51.203317
+    longitude: 3.210020
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 68
+    street: 'E. Jacqmainlaan 126'
+    city: 'BRUSSEL 1'
+    latitude: 50.855180
+    longitude: 4.354547
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 69
+    street: 'RUE WILLY ERNST 10 BUS 1D'
+    city: 'CHARLEROI'
+    latitude: 50.408075
+    longitude: 4.447824
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 70
+    street: 'MARKT 41-43'
+    city: 'DEINZE'
+    latitude: 50.984988
+    longitude: 3.526590
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 71
+    street: 'Franz Courtensstraat 32'
+    city: 'DENDERMONDE'
+    latitude: 51.032232
+    longitude: 4.101477
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 72
+    street: 'Markt 33'
+    city: 'EEKLO'
+    latitude: 51.184114
+    longitude: 3.566440
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 73
+    street: 'Keizer Karellaan 266'
+    city: 'GANSHOREN'
+    latitude: 50.871273
+    longitude: 4.302804
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 74
+    street: 'Pas 7'
+    city: 'GEEL'
+    latitude: 51.160406
+    longitude: 4.990000
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 75
+    street: 'SCHIETBOOMSTRAAT 5 bus 1'
+    city: 'GENK'
+    latitude: 50.966554
+    longitude: 5.499991
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 76
+    street: 'Zuidstationstraat 5'
+    city: 'GENT'
+    latitude: 51.049008
+    longitude: 3.733190
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 77
+    street: 'BRUGSESTEENWEG 92'
+    city: 'GENT'
+    latitude: 51.064236
+    longitude: 3.693646
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 78
+    street: 'MOLENBORRE 19'
+    city: 'HALLE'
+    latitude: 50.734058
+    longitude: 4.234992
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 79
+    street: 'GULDENSPORENPLEIN 1 bus 2'
+    city: 'HASSELT'
+    latitude: 50.929774
+    longitude: 5.344187
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 80
+    street: 'BERGSTRAAT 174 BUS 2'
+    city: 'HEIST-OP-DEN-BERG'
+    latitude: 51.077368
+    longitude: 4.716720
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 81
+    street: 'FRAIKINSTRAAT 20/1'
+    city: 'HERENTALS'
+    latitude: 51.180463
+    longitude: 4.834828
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 82
+    street: 'Vrijheid 117'
+    city: 'HOOGSTRATEN'
+    latitude: 51.402575
+    longitude: 4.762166
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 83
+    street: 'VREDELAAN 4'
+    city: 'HOUTHALEN'
+    latitude: 51.031338
+    longitude: 5.372616
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 84
+    street: 'R. COLAERTPLEIN 17 A'
+    city: 'IEPER'
+    latitude: 50.849152
+    longitude: 2.878142
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 85
+    street: 'NIEUWSTRAAT 2'
+    city: 'IZEGEM'
+    latitude: 50.918121
+    longitude: 3.213306
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 86
+    street: 'STATIONSTRAAT 25'
+    city: 'KAPELLEN'
+    latitude: 51.314449
+    longitude: 4.430868
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 87
+    street: 'Rijselsestraat 45 bus 2'
+    city: 'KORTRIJK'
+    latitude: 50.827244
+    longitude: 3.262387
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 88
+    street: 'BROELKAAI 1E'
+    city: 'KORTRIJK'
+    latitude: 50.829967
+    longitude: 3.264912
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 89
+    street: 'DIESTSESTRAAT 138 a/b'
+    city: 'LEUVEN'
+    latitude: 50.881295
+    longitude: 4.709200
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 90
+    street: 'Rue de la cathedrale 46'
+    city: 'LIEGE'
+    latitude: 50.643110
+    longitude: 5.576075
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 91
+    street: 'Rue de la cathedrale 46'
+    city: 'LIEGE'
+    latitude: 50.643110
+    longitude: 5.576075
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 92
+    street: 'KERKSTRAAT 20'
+    city: 'LOKEREN'
+    latitude: 51.103508
+    longitude: 3.993220
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 93
+    street: 'Pauwengraaf 88'
+    city: 'MAASMECHELEN'
+    latitude: 50.988577
+    longitude: 5.693055
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 94
+    street: 'Hoogstraat 77'
+    city: 'MECHELEN'
+    latitude: 51.022268
+    longitude: 4.474111
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 95
+    street: 'BRUGGESTRAAT 82'
+    city: 'MENEN'
+    latitude: 50.798610
+    longitude: 3.122592
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 96
+    street: 'BREDABAAN 371'
+    city: 'MERKSEM'
+    latitude: 51.243946
+    longitude: 4.444495
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 97
+    street: 'Graaf De Broquevillestraat 9'
+    city: 'MOL'
+    latitude: 51.185204
+    longitude: 5.116883
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 98
+    street: 'Rue des Capucins 12/2'
+    city: 'MONS'
+    latitude: 50.450788
+    longitude: 3.949076
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 99
+    street: 'Rue du Premier Lanciers 14'
+    city: 'NAMUR'
+    latitude: 50.466305
+    longitude: 4.871209
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 100
+    street: 'Kaardeloodstraat 19A'
+    city: 'NINOVE'
+    latitude: 50.834405
+    longitude: 4.021258
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 101
+    street: 'GRAAF DE SMET DE NAEYERLAAN 17'
+    city: 'OOSTENDE'
+    latitude: 51.225861
+    longitude: 2.923745
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 102
+    street: 'Markt 52'
+    city: 'OUDENAARDE'
+    latitude: 50.842866
+    longitude: 3.604048
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 103
+    street: 'SINT-MICHIELSSTRAAT 27'
+    city: 'ROESELARE'
+    latitude: 50.942757
+    longitude: 3.122692
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 104
+    street: 'NOORDSTRAAT 53'
+    city: 'ROESELARE'
+    latitude: 50.946590
+    longitude: 3.122634
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 105
+    street: 'STATIONSPLEIN 20'
+    city: 'SINT-NIKLAAS'
+    latitude: 51.165718
+    longitude: 4.141526
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 106
+    street: 'STAPELSTRAAT 51'
+    city: 'SINT-TRUIDEN'
+    latitude: 50.815717
+    longitude: 5.180772
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 107
+    street: 'BORREDAM 4 BUS 1'
+    city: 'TERNAT'
+    latitude: 50.872230
+    longitude: 4.177759
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 108
+    street: 'Diesterstraat 34'
+    city: 'TESSENDERLO'
+    latitude: 51.066001
+    longitude: 5.087931
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 109
+    street: 'KORTRIJKSTRAAT 12'
+    city: 'TIELT'
+    latitude: 50.999488
+    longitude: 3.326465
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 110
+    street: 'ANICIUSPARK 19'
+    city: 'TONGEREN'
+    latitude: 50.784190
+    longitude: 5.474490
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 111
+    street: 'Rue Royale 16'
+    city: 'TOURNAI'
+    latitude: 50.609286
+    longitude: 3.391928
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 112
+    street: 'Grote Markt 28'
+    city: 'TURNHOUT'
+    latitude: 51.322784
+    longitude: 4.949673
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 113
+    street: 'NOORDSTRAAT 8'
+    city: 'VEURNE'
+    latitude: 51.073053
+    longitude: 2.662452
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 114
+    street: 'LANGE MOLENSTRAAT 1'
+    city: 'VILVOORDE'
+    latitude: 50.928939
+    longitude: 4.421272
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 115
+    street: 'HOLSTRAAT 31'
+    city: 'WAREGEM'
+    latitude: 50.885292
+    longitude: 3.434918
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 116
+    street: 'AVENUE DES PRINCES 40'
+    city: 'WAVRE'
+    latitude: 50.717060
+    longitude: 4.615414
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 117
+    street: 'STATIONSSTRAAT 5A'
+    city: 'WETTEREN'
+    latitude: 51.004406
+    longitude: 3.883684
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 118
+    street: 'LEUVENSESTEENWEG 669'
+    city: 'ZAVENTEM'
+    latitude: 50.878245
+    longitude: 4.507715
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 119
+    street: 'BARON DE MAERELAAN 12'
+    city: 'ZEEBRUGGE'
+    latitude: 51.329064
+    longitude: 3.183368
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 120
+    street: 'GROTE MARKT 64'
+    city: 'ZELZATE'
+    latitude: 51.200450
+    longitude: 3.810630
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 121
+    street: 'Begijnhoflaan 464'
+    city: 'GENT'
+    latitude: 51.057644
+    longitude: 3.709723
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 122
+    street: 'KEMPISCHE STEENWEG 6'
+    city: 'HASSELT'
+    latitude: 50.934426
+    longitude: 5.339645
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 123
+    street: 'Gentsestraat 30'
+    city: 'IZEGEM'
+    latitude: 50.917234
+    longitude: 3.216521
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 124
+    street: 'ITALIELEI 215'
+    city: 'ANTWERPEN'
+    latitude: 51.221486
+    longitude: 4.416864
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 125
+    street: 'Smedenstraat 40'
+    city: 'BRUGGE'
+    latitude: 51.205450
+    longitude: 3.215036
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 126
+    street: 'ANTWERPSELAAN 5'
+    city: 'BRUSSEL'
+    latitude: 50.856314
+    longitude: 4.354325
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 127
+    street: 'Dorpsplein 22'
+    city: 'KAPELLEN'
+    latitude: 51.313926
+    longitude: 4.428135
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 128
+    street: 'DOLFIJNKAAI 4'
+    city: 'KORTRIJK'
+    latitude: 50.829410
+    longitude: 3.263731
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 129
+    street: 'Diestsestraat 238'
+    city: 'LEUVEN'
+    latitude: 50.882091
+    longitude: 4.713230
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 130
+    street: 'Avenue Blonden 20/22'
+    city: 'LIEGE'
+    latitude: 50.629672
+    longitude: 5.569224
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 131
+    street: 'St. MICHIELSSTRAAT 3A'
+    city: 'ROESELARE'
+    latitude: 50.943685
+    longitude: 3.123022
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 132
+    street: 'Kokkelbeekstraat 23'
+    city: 'SINT-NIKLAAS'
+    latitude: 51.162719
+    longitude: 4.141919
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 133
+    street: 'BIJENSTRAAT28'
+    city: 'SINT-DENIJS-WESTREM'
+    latitude: 51.021336
+    longitude: 3.681807
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 134
+    street: 'POORTAKKERSTRAAT 21/0201'
+    city: 'SINT-DENIJS-WESTREM'
+    latitude: 51.024845
+    longitude: 3.683017
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 135
+    street: 'BEVERSESTEENWEG 576'
+    city: 'ROESELARE'
+    latitude: 50.974048
+    longitude: 3.160431
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 136
+    street: 'BROELKAAI 1E'
+    city: 'KORTRIJK'
+    latitude: 50.829967
+    longitude: 3.264912
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 137
+    street: 'BEVERSESTEENWEG576'
+    city: 'ROESELARE'
+    latitude: 50.974184
+    longitude: 3.160659
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 138
+    street: 'BURGEMEESTERSPLEIN 6'
+    city: 'AALST'
+    latitude: 50.933526
+    longitude: 4.045378
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 139
+    street: 'LANGDORPSESTEENWEG 1'
+    city: 'AARSCHOT'
+    latitude: 50.991691
+    longitude: 4.840907
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 140
+    street: 'RIJNPOORTVEST 1'
+    city: 'ANTWERPEN'
+    latitude: 51.225966
+    longitude: 4.413759
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 141
+    street: 'SINT-MARTINUSSTRAAT 4'
+    city: 'ASSE'
+    latitude: 50.910287
+    longitude: 4.195371
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 142
+    street: 'Oude Zandstraat 35'
+    city: 'BEVEREN-WAAS'
+    latitude: 51.211740
+    longitude: 4.253139
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 143
+    street: 'ANTWERPSESTRAAT 76 BUS 1'
+    city: 'BOOM'
+    latitude: 51.089013
+    longitude: 4.365294
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 144
+    street: 'BOOMSTRAAT 116'
+    city: 'BORNEM'
+    latitude: 51.095947
+    longitude: 4.232630
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 145
+    street: 'MALTA 2'
+    city: 'BREE'
+    latitude: 51.141981
+    longitude: 5.601047
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 146
+    street: 'GULDEN-VLIESLAAN 21'
+    city: 'BRUGGE'
+    latitude: 51.211170
+    longitude: 3.214348
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 147
+    street: 'LOUIZALAAN 125'
+    city: 'BRUSSEL 5'
+    latitude: 50.832478
+    longitude: 4.358354
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 148
+    street: 'Boulevard Joseph II 4'
+    city: 'CHARLEROI'
+    latitude: 50.413439
+    longitude: 4.449724
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 149
+    street: 'KORTRIJKSTRAAT 72 BUS 1'
+    city: 'DEINZE'
+    latitude: 50.977292
+    longitude: 3.527698
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 150
+    street: 'NOORDLAAN 113a'
+    city: 'DENDERMONDE'
+    latitude: 51.033347
+    longitude: 4.088012
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 151
+    street: 'MOLENSTRAAT 2'
+    city: 'EEKLO'
+    latitude: 51.185330
+    longitude: 3.564070
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 152
+    street: 'ANTWERPSEWEG 17A'
+    city: 'GEEL'
+    latitude: 51.151432
+    longitude: 4.971169
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 153
+    street: 'EUROPALAAN 57 BUS 3'
+    city: 'GENK'
+    latitude: 50.966622
+    longitude: 5.497809
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 154
+    street: 'Keizer Karelstraat 220'
+    city: 'GENT'
+    latitude: 51.050149
+    longitude: 3.733788
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 155
+    street: 'SUIKERKAAI 9'
+    city: 'HALLE'
+    latitude: 50.731931
+    longitude: 4.237414
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 156
+    street: 'LUIKERSTEENWEG 97 BUS 2'
+    city: 'HASSELT'
+    latitude: 50.923526
+    longitude: 5.339667
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 157
+    street: 'BOVENRIJ 9'
+    city: 'HERENTALS'
+    latitude: 51.173802
+    longitude: 4.838934
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 158
+    street: 'OUDE VEURNESTRAAT 79'
+    city: 'IEPER'
+    latitude: 50.857916
+    longitude: 2.872211
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 159
+    street: 'De Smet De Naeyerlaan 111a'
+    city: 'JETTE'
+    latitude: 50.873607
+    longitude: 4.328189
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 160
+    street: 'Antwerpsesteenweg 69'
+    city: 'KAPELLEN'
+    latitude: 51.311409
+    longitude: 4.430237
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 161
+    street: 'SCHOUWBURGPLEIN 8'
+    city: 'KORTRIJK'
+    latitude: 50.825641
+    longitude: 3.265233
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 162
+    street: 'BRUGSESTRAAT 10'
+    city: 'KORTRIJK'
+    latitude: 50.834214
+    longitude: 3.259328
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 163
+    street: 'MARTELARENLAAN 30'
+    city: 'LEUVEN'
+    latitude: 50.881950
+    longitude: 4.717500
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 164
+    street: 'Avenue Blonden 20/22'
+    city: 'LIEGE'
+    latitude: 50.629672
+    longitude: 5.569224
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 165
+    street: 'Hoogveldweg 153'
+    city: 'LIER'
+    latitude: 51.123001
+    longitude: 4.572693
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 166
+    street: 'ZAND 22'
+    city: 'LOKEREN'
+    latitude: 51.102363
+    longitude: 3.995337
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 167
+    street: 'KAPITTELHOF 2'
+    city: 'LOMMEL'
+    latitude: 51.230419
+    longitude: 5.311006
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 168
+    street: 'Hoogstraat 9'
+    city: 'MECHELEN'
+    latitude: 51.023768
+    longitude: 4.475208
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 169
+    street: 'IEPERSTRAAT 29'
+    city: 'MENEN'
+    latitude: 50.796492
+    longitude: 3.118243
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 170
+    street: 'ANTWERPSESTRAAT 147'
+    city: 'MORTSEL'
+    latitude: 51.174263
+    longitude: 4.440980
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 171
+    street: 'RUE DU PREMIER LANCIERS 14'
+    city: 'NAMUR'
+    latitude: 50.466305
+    longitude: 4.871209
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 172
+    street: 'Av. De Centenaire 53'
+    city: 'NIVELLES'
+    latitude: 50.594894
+    longitude: 4.337284
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 173
+    street: 'Leopold II Laan 13'
+    city: 'OOSTENDE'
+    latitude: 51.230261
+    longitude: 2.914263
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 174
+    street: 'BEVERESTRAAT 18-20'
+    city: 'OUDENAARDE'
+    latitude: 50.847878
+    longitude: 3.600415
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 175
+    street: 'NOORDLAAN 41A'
+    city: 'ROESELARE'
+    latitude: 50.955701
+    longitude: 3.118822
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 176
+    street: 'BEVERSESTEENWEG 576'
+    city: 'ROESELARE'
+    latitude: 50.974578
+    longitude: 3.161673
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 177
+    street: 'MARKT 17'
+    city: 'SCHOTEN'
+    latitude: 51.251884
+    longitude: 4.497916
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 178
+    street: 'PLEZANTSTRAAT 2 BUS 1'
+    city: 'SINT-NIKLAAS'
+    latitude: 51.165946
+    longitude: 4.136382
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 179
+    street: 'STATIONSTRAAT 133'
+    city: 'TERNAT'
+    latitude: 50.874407
+    longitude: 4.164053
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 180
+    street: 'Neerstraat 29'
+    city: 'TESSENDERLO'
+    latitude: 51.068914
+    longitude: 5.087926
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 181
+    street: 'KORTRIJKSTRAAT 72A'
+    city: 'TIELT'
+    latitude: 50.997463
+    longitude: 3.326604
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 182
+    street: 'GILAINSTRAAT 33'
+    city: 'TIENEN'
+    latitude: 50.809474
+    longitude: 4.937276
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 183
+    street: 'SINT TRUIDERSTEENWEG 36'
+    city: 'TONGEREN'
+    latitude: 50.778717
+    longitude: 5.453811
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 184
+    street: 'PATERSSTRAAT 44 b1'
+    city: 'TURNHOUT'
+    latitude: 51.323659
+    longitude: 4.949664
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 185
+    street: 'STALLESTRAAT 11'
+    city: 'UKKEL'
+    latitude: 50.799961
+    longitude: 4.335557
+    is_open_in_weekends: 'N'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 186
+    street: 'ST-DENISPLAATS 11'
+    city: 'VEURNE'
+    latitude: 51.070060
+    longitude: 2.661776
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 187
+    street: 'BENOIT HANSSENSLAAN 18A'
+    city: 'VILVOORDE'
+    latitude: 50.925912
+    longitude: 4.433432
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 188
+    street: 'WESTERLAAN 12 BUS 2'
+    city: 'WAREGEM'
+    latitude: 50.886626
+    longitude: 3.423432
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 189
+    street: 'Hoenderstraat 2'
+    city: 'WETTEREN'
+    latitude: 51.004513
+    longitude: 3.883561
+    is_open_in_weekends: 'Y'
+    has_support_desk: 'Y'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 190
+    street: 'MECHELSESTEENWEG 497'
+    city: 'ZAVENTEM'
+    latitude: 50.878650
+    longitude: 4.507508
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 191
+    street: 'BRUSSELSTRAAT 1'
+    city: 'ZEEBRUGGE'
+    latitude: 51.329195
+    longitude: 3.183194
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 192
+    street: 'Koning Albert I laan 70'
+    city: 'BRUGGE'
+    latitude: 51.191915
+    longitude: 3.212187
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 193
+    street: 'KEMPISCHE STEENWEG 6'
+    city: 'HASSELT'
+    latitude: 50.934426
+    longitude: 5.339645
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 194
+    street: 'KONING ALBERT I LAAN 92'
+    city: 'ROESELARE'
+    latitude: 50.940109
+    longitude: 3.128716
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 195
+    street: 'Steenweg op Antwerpen 31 bus 2'
+    city: 'TURNHOUT'
+    latitude: 51.319622
+    longitude: 4.923025
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 196
+    street: 'GROTE STEENWEG NOORD 63'
+    city: 'ZWIJNAARDE'
+    latitude: 51.010544
+    longitude: 3.702622
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
+
+-
+    id: 197
+    street: 'Hendrik I lei 200'
+    city: 'VILVOORDE'
+    latitude: 50.935960
+    longitude: 4.432298
+    is_open_in_weekends: 'N'
+    has_support_desk: 'N'
+    created: '2014-11-09 16: 01: 57'
