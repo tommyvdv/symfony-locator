@@ -33,7 +33,7 @@ resultLocations = {
     addMarkers: function(locations, reset) {
         if (reset)
         {
-            $('.all-locations .location').hide();
+            $('.locations .location').hide();
             $.each(resultLocations.map.markers, resultLocations.decouple);
         }
 
@@ -44,7 +44,7 @@ resultLocations = {
         el.setMap(null);
     },
     addMarker: function(i, el) {
-        $('.all-locations .location#location-'+el.id).show();
+        $('.locations .location#location-'+el.id).show();
 
         var latlng = new google.maps.LatLng(el.lat, el.lng);
         resultLocations.bounds.extend(latlng);
